@@ -136,10 +136,10 @@
                     $output_str .= date('Z', $timestamp);
                     break;
                 case 'c':
-                    $output_str .= self::persian_date_utf('d-m-Y\TH:i:sO', $timestamp);
+                    $output_str .= system::persian_date_utf('d-m-Y\TH:i:sO', $timestamp);
                     break;
                 case 'r':
-                    $output_str .= self::persian_date_utf('D، j F Y H:i:s O', $timestamp);
+                    $output_str .= system::persian_date_utf('D، j F Y H:i:s O', $timestamp);
                     break;
                 case 'U':
                     $output_str .= date('U', $timestamp);
